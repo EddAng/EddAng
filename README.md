@@ -1,5 +1,11 @@
-**Bom dia**
+# **Hello there**
+ ```javascript
 
-**Boa tarde**
+Console.log(nome());
 
-**Boa noite**
+function nome() {
+  this.nome = 'Eduardo ';
+  this.sobrenome = 'Angeli';
+  return this.name + this.sobrenome;
+
+}
