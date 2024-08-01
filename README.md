@@ -1,11 +1,11 @@
 # **Hello there**
  ```javascript
 
-Console.log(nome());
-
-function nome() {
-  this.nome = 'Eduardo ';
-  this.sobrenome = 'Angeli';
-  return this.name + this.sobrenome;
-
-}
+ console.log(hello());
+ 
+ function hello(){
+  this.palavra = 'Hello ';
+  this.palavra2 = 'World';
+  return this.palavra + this.palavra2;
+ 
+ }
